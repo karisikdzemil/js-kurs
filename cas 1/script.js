@@ -21,5 +21,5 @@ newElement.className = 'new-value';
 newElement.innerText = `danasnjih ${money} eura vredi isto kao ${worth} eura za ${years} godina.`;
 
 document.querySelector('.container').appendChild(newElement);
-
+    
 }
