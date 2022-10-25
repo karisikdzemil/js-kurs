@@ -1,74 +1,79 @@
+// function newElement() {
+//    let input = document.getElementById('myInput').value
+//    let ul = document.querySelector('#myUL')
+//    const node = document.createElement("li");
+//    const textnode = document.createTextNode(input);
+//    node.appendChild(textnode);
+//    document.getElementById("myUL").appendChild(node);
+//    let nvb = document.createElement("button")
+//    nvb.innerText = "X"
+//    nvb.onclick = nekafunkcija
+//    nvb.style.float='right'
+//    nvb.style.background='red'
 
-// unos = Number(prompt("unesite broj redova"))
-// str = ""
-// for (i = 0; i < unos; i++) {
-//     str += "*"
-//     console.log(str)
+//    node.appendChild(nvb)
+//    console.log(node.innerText)
+
+
 // }
+// function nekafunkcija(el){
+//    console.log("dal")
+//    node = document.querySelector('li')
+//    proba = node.innerText
+//    node.remove()
 
-// unos = Number(prompt("unesite broj redova"))
-// str = ""
-// for (i = 0; i < unos; i++) {
-//     num = "1"
-//     str += "1"
-//     console.log(str)
-//     if(str++){
-//         unos + "1"
-//     }
-// }
-
-// x = Number(prompt("unesite broj redova"));
-// str = 1;
-// for (i = 0; i <= x; i++) {
-//     str++ += "0";
-//     console.log(str);
-//     console.log(str)
-//   }
-    // kolicina = Number(prompt("enter"));
-
-    // for (i = 1; i <=kolicina; i++) {
-    // str = "";
-    // for (j = 1; j <= i; j++) {
-
-    // }
-    // console.log(str);
-    // }
-
-// kolicina = Number(prompt("Enter your krajnja: "));
-
-// for (i = 1; i <= kolicina; i++) {
-//   str = "";
-//   for (j = 1; j <= i; j++) {
-//     str += i;
-//   }
-//   console.log(str);
 // }
 
 
-// unos = Number(prompt("unesi broj redova"))
+function newElement(){
+   let input = document.getElementById('myInput').value
+   // let newEl = document.createElement('li')
+   // newEl.innerText = input
+   let ul = document.getElementById('myUL')
+   // ul.appendChild(newEl)
+   // newBut = document.createElement('button')
+   // newBut.className = "dobri"
+   // newBut.innerHTML = 'X'
+   // newBut.onclick = newFunc
+   // newEl.appendChild(newBut)
+   let span = document.getElementById('spanId')
+   let newEl = document.createElement.innerHTML = '<span id="spanId"><li>djemsi<button onclick="newFunc(this)" id="proba">klikni</button></li></span>' 
+   ul.appendChild(newEl)
+   ul.innerText = best
 
-// for (i = 1; i <= unos; i++){
-//     str = "";
-//     for (j = 1; j <= i; j++){
-//         str += i;
-//         console.log(str)
-//     }
-// }
 
-// unos = Number(prompt("unesi broj"));
-
-// str ="";
-// for (i = 0; i < unos; i++){
-//     str += "*";
-//     console.log(str)
-// }
-
-unos = Number(prompt("unesi broj"));
-
-for (i = 1; i < unos; i++) {
-    str = "";
-    for (j = 1; j <= i; j++){
-        str += i;
-        console.log(str)
-    }
 }
+function newFunc() {
+   let newBut = document.querySelector('.dobri')
+   let newEl = document.querySelector('li')
+   // newBu.style.display = "none"      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
